@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+=======
+#include <stdio.h>
+>>>>>>> 73a22127474bdc54d1030e9bffeb59c387322fed
 /**
  * main - Entry point
  *
@@ -11,6 +15,7 @@
  */
 int main(void)
 {
+<<<<<<< HEAD
 	int n, m;
 
 	srand(time(0));
@@ -26,3 +31,16 @@ int main(void)
 	return (0);
 }
 
+=======
+	char c;
+
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++; 
+		}
+	putchar('\n');
+	return (0);
+} 
+>>>>>>> 73a22127474bdc54d1030e9bffeb59c387322fed
