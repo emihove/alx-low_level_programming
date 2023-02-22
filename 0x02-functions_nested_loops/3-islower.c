@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * _islower - Checks for alphabetic character
- * @c - The character to be checked
+ * _islower - Checks for lowercase character
+ * @c - The character to be checked is lowercase
  * Return: 1 for lowercase or 0 for anything else
  */
 int _islower(int c)
