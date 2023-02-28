@@ -2,7 +2,7 @@
 
 /**
  * puts_halfm- a function that prints half of a string
- * if odd len, n = (length_of_the_string)
+ *
  * @str: input
  * Return: half of input
  */
