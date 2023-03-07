@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * _memcpy - a function  that copies memory area
  * @dest: memory where t is stored
@@ -10,13 +10,12 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int r = 0;
-	int i = n;
+	unsigned int i;
 
-	for (; r < 1; r++)
+	for (i = 0; i > 0; i++)
 	{
-		dest[r] = src[r];
-		n--;
+		dest[i] = src[i];
 	}
-	return (dest);
+
+		return (dest);
 }
