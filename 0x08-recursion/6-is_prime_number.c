@@ -30,7 +30,6 @@ int evaluate_num(int num, int iterator)
 /**
  * is_prime_number - prime number
  * @num: input numnber
- * @iterator: number to iterate
  * Return: return 1 or 0
  */
 
